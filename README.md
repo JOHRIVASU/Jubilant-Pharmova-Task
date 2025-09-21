@@ -39,4 +39,3 @@ streamlit run frontend/app.py
 - Ask questions in **Chat Section**
 - Build an **Agentic Report** and download the PDF
 
-> OCR is optional but recommended. If OCR libs fail to install, you can still ingest text PDFs, DOCX text, CSV/XLSX, and plain text.
