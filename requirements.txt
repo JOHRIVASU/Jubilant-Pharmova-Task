@@ -1,0 +1,24 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+numpy
+pandas
+scikit-learn
+Pillow
+pdfplumber
+PyMuPDF
+python-docx
+reportlab
+openai
+faiss-cpu
+# OCR stack 
+easyocr
+opencv-python-headless
+paddleocr
+paddlepaddle
+# Agentic 
+autogen-agentchat
+autogen-ext
+# UI
+streamlit
+requests
