@@ -2,7 +2,7 @@
 
 ## Layout
 ```
-genai_assistant_split/
+Jubilant-Pharmova-Task/
 ├─ requirements.txt
 ├─ .env.example
 ├─ packages.txt
