@@ -4,6 +4,8 @@
 ```
 genai_assistant_split/
 ├─ requirements.txt
+├─ .env.example
+├─ packages.txt
 ├─ backend/
 │  └─ main.py # FastAPI app (uvicorn backend.main:api --reload)
    └─ server.py
