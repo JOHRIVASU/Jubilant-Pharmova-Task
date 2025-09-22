@@ -7,11 +7,11 @@ genai_assistant_split/
 ├─ backend/
 │  └─ main.py # FastAPI app (uvicorn backend.main:api --reload)
    └─ server.py
-   └─ docker 
+   └─ Dockerfile 
        
 └─ frontend/
    └─ app.py # Streamlit UI (streamlit run frontend/app.py)
-   └─ docker  
+   └─ Dockerfile  
 ```
 
 ## Quickstart
