@@ -5,9 +5,13 @@
 genai_assistant_split/
 ├─ requirements.txt
 ├─ backend/
-│  └─ main.py          # FastAPI app (uvicorn backend.main:api --reload)
+│  └─ main.py # FastAPI app (uvicorn backend.main:api --reload)
+   └─ server.py
+   └─ docker 
+       
 └─ frontend/
-   └─ app.py           # Streamlit UI (streamlit run frontend/app.py)
+   └─ app.py # Streamlit UI (streamlit run frontend/app.py)
+   └─ docker  
 ```
 
 ## Quickstart
