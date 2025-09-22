@@ -11,6 +11,7 @@ python-docx
 reportlab
 openai
 faiss-cpu
+prometheus-client
 # OCR stack 
 easyocr
 opencv-python-headless
