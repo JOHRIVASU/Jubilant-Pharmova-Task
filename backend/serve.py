@@ -8,7 +8,7 @@ from prometheus_client import make_asgi_app
 from importlib import import_module
 
 # Import existing FastAPI instance named 'api' from main.py
-main = import_module("genai_assistant_split.backend.main")
+main = import_module("backend.main")
 api = getattr(main, "api")
 
 metrics_app = make_asgi_app()
