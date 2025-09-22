@@ -7,4 +7,4 @@ RUN python -m pip install -U pip && pip install -r requirements.txt && pip insta
 EXPOSE 8000
 HEALTHCHECK --interval=30s --timeout=5s --retries=3 CMD python - <<'PY'\nimport sys, urllib.request, os\nurl = f\"http://127.0.0.1:{os.getenv('PORT','8000')}/api/v1/health\"\ntry:\n    with urllib.request.urlopen(url, timeout=3) as r:\n        sys.exit(0 if r.status==200 else 1)\nexcept Exception:\n    sys.exit(1)\nPY
 ENV PORT=8000
-CMD ["python","-m","uvicorn","genai_assistant_split.backend.serve:app","--host","0.0.0.0","--port","8000","--workers","1"]
+CMD ["python","-m","uvicorn","backend.serve:app","--host","0.0.0.0","--port","8000","--workers","1"]
